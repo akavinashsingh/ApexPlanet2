@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+        <TextView
+            android:id="@+id/contact_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+        <TextView
+            android:id="@+id/internship_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+        <Button
+            android:id="@+id/visit_website_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visit Website"
+            android:backgroundTint="@color/primary_color"
+            android:layout_marginBottom="8dp" />
+        <Button
+            android:id="@+id/call_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Us"
+            android:backgroundTint="@color/primary_color"
+            android:layout_marginBottom="8dp" />
+        <Button
+            android:id="@+id/email_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Us"
+            android:backgroundTint="@color/primary_color" />
+    </LinearLayout>
+</ScrollView>
